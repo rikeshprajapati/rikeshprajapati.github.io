@@ -1,0 +1,135 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.hero-bg {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    animation: bg-animation 15s infinite alternate;
+}
+
+.hero-header {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.skills-bg {
+    background-color: #f7fafc;
+}
+
+.project-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left; /* Align text to the left */
+}
+
+.project-card h3 {
+    font-size: 1.5rem; /* Adjust heading size */
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1rem; /* Adjust paragraph size */
+    color: #555;
+}
+
+.project-card ul {
+    text-align: left; /* Align list items to the left */
+    margin-left: 1.5rem; /* Indent list items */
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.resume-bg {
+    background-color: #edf2f7;
+}
+
+.contact-bg {
+    background-color: #f7fafc;
+}
+
+.section-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4a5568;
+}
+
+.skill-img {
+    width: 60px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.skill-card {
+    background-color: #ffffff;
+    padding: 0.75rem; /* Reduced padding */
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px); /* Reduced hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adjust shadow */
+}
+
+
+.portfolio-section {
+    background-color: #f9f9f9;
+}
+
+.leetcode-link {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+.leetcode-link:hover {
+    text-decoration: underline;
+}
+
+.leetcode-link img {
+    width: 64px; /* Adjust as needed */
+    height: 64px; /* Adjust as needed */
+}
+
+.btn-primary {
+    background-color: #12010c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #020318;
+}
+
+.btn-secondary {
+    background-color: #f3810f;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #7175e5;
+}
+
+@keyframes bg-animation {
+    0% {
+        background: linear-gradient(to right, #4e54c8, #8f94fb);
+    }
+    100% {
+        background: linear-gradient(to right, #8f94fb, #4e54c8);
+    }
+}

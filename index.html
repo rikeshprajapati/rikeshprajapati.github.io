@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rikesh Prajapati - Data Scientist Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center py-4">
+            <h1 class="text-xl font-bold text-blue-600">Rikesh Prajapati</h1>
+            <div class="hidden md:flex space-x-4" id="nav-menu">
+                <a href="#about" class="hover:text-gray-600">About</a>
+                <a href="#skills" class="hover:text-gray-600">Skills</a>
+                <a href="#projects" class="hover:text-gray-600">Projects</a>
+                <a href="#contact" class="hover:text-gray-600">Contact</a>
+                <a href="#resume" class="hover:text-gray-600">Resume</a>
+            </div>
+            <button id="nav-toggle" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="md:hidden hidden" id="nav-menu-mobile">
+            <a href="#about" class="block px-4 py-2 hover:bg-gray-200">About</a>
+            <a href="#skills" class="block px-4 py-2 hover:bg-gray-200">Skills</a>
+            <a href="#projects" class="block px-4 py-2 hover:bg-gray-200">Projects</a>
+            <a href="#contact" class="block px-4 py-2 hover:bg-gray-200">Contact</a>
+            <a href="#resume" class="block px-4 py-2 hover:bg-gray-200">Resume</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero-bg py-20 text-center text-white">
+        <div class="container mx-auto px-4 flex flex-col items-center">
+            <img src="profile-photo.png" alt="Rikesh Prajapati" class="w-48 h-48 rounded-full mb-4 border-4 border-white shadow-lg">
+            <h2 class="hero-header mb-4">Hello, I'm Rikesh Prajapati</h2>
+            <h4 class="text-2xl font-semibold mb-4">Data Scientist</h4>
+            <p class="text-xl mb-6">
+                Harnessing the power of Machine Learning, Deep Learning, SQL, Natural Language Processing (NLP), Data Analysis, and Computer Vision to create innovative solutions and drive data-driven decisions. With 1 year of experience in developing and optimizing models, analyzing complex datasets, and implementing cutting-edge technologies, I am dedicated to solving challenging problems and delivering impactful results. Explore my portfolio to see how I apply these skills to real-world projects, and let's connect to discuss how we can collaborate on your next big idea!
+            </p>
+            <div class="flex flex-col md:flex-row gap-4">
+                <a href="rikesh_data_scientist.pdf" download class="btn-primary">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+                <a href="https://linkedin.com/in/rikeshdatascientist" target="_blank" class="btn-secondary">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                </div>
+                
+                </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <!-- Skills Section -->
+    <section id="skills" class="skills-bg py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="section-header mb-4">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-6"> <!-- Adjusted grid to 5 columns for medium screens and larger -->
+                <div class="skill-card flex flex-col items-center justify-center"> <!-- Added Flexbox classes for centering -->
+                    <img src="python-logo.png" alt="Python" class="skill-img mb-2"> <!-- Removed mx-auto as Flexbox handles centering -->
+                    <h3 class="text-lg font-bold">Python</h3> <!-- Reduced font size -->
+                </div>
+                <div class="skill-card flex flex-col items-center justify-center"> <!-- Added Flexbox classes for centering -->
+                    <img src="ml-logo.png" alt="Machine Learning" class="skill-img mb-2"> <!-- Removed mx-auto as Flexbox handles centering -->
+                    <h3 class="text-lg font-bold">Machine Learning</h3> <!-- Reduced font size -->
+                </div>
+                <div class="skill-card flex flex-col items-center justify-center"> <!-- Added Flexbox classes for centering -->
+                    <img src="dl-logo.png" alt="Deep Learning" class="skill-img mb-2"> <!-- Removed mx-auto as Flexbox handles centering -->
+                    <h3 class="text-lg font-bold">Deep Learning</h3> <!-- Reduced font size -->
+                </div>
+                <div class="skill-card flex flex-col items-center justify-center"> <!-- Added Flexbox classes for centering -->
+                    <img src="nlp-logo.webp" alt="NLP" class="skill-img mb-2"> <!-- Removed mx-auto as Flexbox handles centering -->
+                    <h3 class="text-lg font-bold">NLP</h3> <!-- Reduced font size -->
+                </div>
+                <div class="skill-card flex flex-col items-center justify-center"> <!-- Added Flexbox classes for centering -->
+                    <img src="cv-logo.png" alt="Computer Vision" class="skill-img mb-2"> <!-- Removed mx-auto as Flexbox handles centering -->
+                    <h3 class="text-lg font-bold">Computer Vision</h3> <!-- Reduced font size -->
+                </div>
+                <div class="skill-card flex flex-col items-center justify-center"> <!-- Added Flexbox classes for centering -->
+                    <img src="sql-logo.png" alt="SQL" class="skill-img mb-2"> <!-- Removed mx-auto as Flexbox handles centering -->
+                    <h3 class="text-lg font-bold">SQL</h3> <!-- Reduced font size -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-bg py-20 text-black">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="section-header mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="project-card">
+                    <h3 class="text-xl font-bold mb-2">Door Detection</h3>
+                    <p class="mb-2">
+                        <strong>Description:</strong> Developed an advanced door detection system utilizing Python and computer vision technologies to accurately identify doors in architectural PDF files.
+                    </p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul class="list-disc list-inside mb-2">
+                        <li>Detection Algorithm: Implemented YOLO for high-precision door detection.</li>
+                        <li>Image Processing: Enhanced detection accuracy using OpenCV and TensorFlow.</li>
+                        <li>Data Extraction: Optimized data extraction pipeline with Pandas and EasyOCR.</li>
+                        <li>Efficiency Improvement: Achieved an 80% improvement in processing efficiency and a 70% reduction in errors.</li>
+                        <li>Reliability: Ensured 80% system reliability through extensive testing and validation.</li>
+                        <li>Deployment: Created a user-friendly interface for real-time analysis.</li>
+                    </ul>
+                    <p><strong>Technologies:</strong> Python, NLTK, SpaCy, scikit-learn, SQL</p>
+                    <p><strong>Impact:</strong> Provided insights into customer sentiment, enabled data-driven product improvements, and automated sentiment analysis, reducing manual effort.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="text-xl font-bold mb-2">Sentiment Analysis on Product Reviews</h3>
+                    <p class="mb-2">
+                        <strong>Description:</strong> Developed a system to classify product reviews into positive, negative, or neutral categories using advanced NLP techniques.
+                    </p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul class="list-disc list-inside mb-2">
+                        <li>Data Collection: Gathered product reviews from e-commerce platforms.</li>
+                        <li>Preprocessing: Cleaned and tokenized text data.</li>
+                        <li>Feature Extraction: Used TF-IDF and word embeddings (Word2Vec, GloVe).</li>
+                        <li>Model Training: Trained and compared models (Logistic Regression, Naive Bayes, SVM).</li>
+                        <li>Evaluation: Used accuracy, precision, recall, and F1-score metrics.</li>
+                        <li>Team Collaboration: Increased team productivity by 70% through effective communication and collaboration.</li>
+                    </ul>
+                    <p><strong>Technologies:</strong> Python, YOLO, OpenCV, TensorFlow, Pandas, EasyOCR</p>
+                    <p><strong>Impact:</strong> Enhanced door detection accuracy to 85%, significantly reduced manual processing time by 70%, and streamlined data extraction and processing workflows.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-bg py-20 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="section-header mb-4">Resume</h2>
+            <p class="mb-4">Download my resume to learn more about my experience and skills.</p>
+            <a href="rikesh_data_scientist.pdf" download class="btn-primary">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- LeetCode Section -->
+    <section id="leetcode" class="portfolio-section py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="section-header mb-4">LeetCode Profile</h2>
+            <div class="flex justify-center items-center">
+                <a href="https://leetcode.com/u/rikeshprajapati" target="_blank" class="leetcode-link">
+                    <img src="lc-logo.webp" alt="LeetCode" class="w-16 h-16 mx-auto mb-2"> <!-- Adjust as needed -->
+                    <h3 class="text-lg font-bold">Visit my LeetCode Profile</h3> <!-- Adjust text as needed -->
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-bg py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="section-header mb-4">Contact</h2>
+            <p class="mb-4">Feel free to reach out to me via email or phone.</p>
+            <p>Email: <a href="mailto:kumarrikesh0905@gmail.com" class="text-blue-500">kumarrikesh0905@gmail.com</a></p>
+            <p>Phone: +919116859817</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-lg py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="mb-4">
+                <a href="https://linkedin.com/in/rikeshdatascientist" target="_blank" class="text-blue-500 mx-2">
+                    <svg class="w-6 h-6 inline" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11.839 19h-3.161v-10h3.161v10zm-1.58-11.269c-1.011 0-1.831-.82-1.831-1.831s.82-1.831 1.831-1.831 1.831.82 1.831 1.831-.82 1.831-1.831 1.831zm12.419 11.269h-3.161v-5.668c0-1.354-.027-3.099-1.888-3.099-1.889 0-2.179 1.476-2.179 2.998v5.769h-3.161v-10h3.031v1.367h.043c.422-.8 1.453-1.643 2.991-1.643 3.199 0 3.793 2.104 3.793 4.842v5.434z"/>
+                    </svg>
+                </a>
+            </div>
+            <p class="text-gray-600">&copy; 2024 Rikesh Prajapati. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('nav-toggle').addEventListener('click', function () {
+            document.getElementById('nav-menu-mobile').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
